@@ -1,7 +1,7 @@
 const express = require('express');
 
-const projectRouter= require('./data/helpers/projectModel');
-const actionRouter= require('./data/helpers/actionModel');
+const projectRouter = require("./projectRouter");
+const actionRouter = require("./actionRouter");
 
 const server = express();
 
